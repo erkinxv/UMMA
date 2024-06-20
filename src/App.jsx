@@ -40,7 +40,7 @@ function App() {
       {/* <Projects /> */}
       <Router>
         <div className="App">
-          <Routes>
+          <Routes basename="/umma"> 
             <Route path="/" element={<Home />} />
             <Route path="/article" element={<Article />} />
             <Route path="/media" element={<Media />} />
